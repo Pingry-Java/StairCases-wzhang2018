@@ -9,6 +9,8 @@ import java.util.Scanner;
  * Main method sets the size of the stairs and gives the size for the two 
  * other methods to use.
  *
+ *@param args arguments passed into the function
+ *
  * @author William Zhang
  @ @version 1
  */
@@ -26,6 +28,8 @@ public class stairs
 	}
 	/**
 	 * Ascending stair function, prints "levelnum" number of stars on the bottom and one star on top.
+	 *
+	 * @param levelnum is the number of levels in the staircase
 	 */
 	public static void ascendingStairs(int levelnum)
 	{
@@ -47,6 +51,8 @@ public class stairs
 	 * The number of stars on top is equal to the number of levels of the stairs.  This is
 	 * the premise of my code and it's where I started.  Each row subtracts one from the level
 	 * of stairs value.
+	 *
+	 * @param levelnum is the number of levels in the staircase
 	 */
 	public static void descendingStairs(int levelnum1)
 	{
